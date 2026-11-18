@@ -36,7 +36,7 @@
 ## 1. Introduzione
 
 ### 1.1 Panoramica del progetto
-
+*rivedere la descrizione*
 BikeFlow è un’applicazione software progettata per gestire un servizio di bike sharing. Il sistema permette agli utenti di noleggiare biciclette in modo semplice ed efficiente, promuovendo una mobilità urbana sostenibile.
 
 Attraverso l’applicazione, gli utenti possono registrarsi, effettuare l’accesso, cercare biciclette disponibili, prenotarle, iniziare e terminare un noleggio e gestire i pagamenti. Il sistema include inoltre un’area amministrativa per gestire utenti, biciclette, stazioni, manutenzioni e informazioni sui noleggi.
@@ -48,17 +48,19 @@ Attraverso l’applicazione, gli utenti possono registrarsi, effettuare l’acce
 - Consentire la prenotazione delle biciclette.
 - Gestire l’inizio e la conclusione dei noleggi.
 - Calcolare i costi in base alla durata e al tipo di abbonamento.
-- Gestire pagamenti e abbonamenti.
 - Consentire agli amministratori di gestire biciclette e stazioni.
 - Monitorare le attività di manutenzione e i problemi segnalati.
+- aggiungiamo un operatore fisico che si occupa della manutenzione?
 
 ### 1.3 Ambito del progetto
 
-**Area utente:** registrazione e accesso; gestione del profilo personale; ricerca delle biciclette disponibili; prenotazioni; avvio e conclusione dei noleggi; storico dei noleggi; gestione di abbonamenti e pagamenti.
+**Area utente:**  Registrazione e accesso tramite nome e cognome, email o numero di telefono ; gestione del profilo personale con informazioni tipo numero di telefono, email, nome e cognome, indirizzo e possibilità di log out; ricerca delle biciclette disponibili usiamo il gps? barra di ricerca?; prenotazioni no; avvio e conclusione dei noleggi; storico dei noleggi; gestione di abbonamenti e pagamenti. 
+
 
 **Area amministratore:** gestione degli utenti, delle biciclette e delle stazioni; gestione della manutenzione; monitoraggio dei noleggi; statistiche del sistema.
 
 **Fuori dal perimetro.** Nella versione iniziale non saranno integrati fornitori di pagamento reali, dispositivi GPS o lucchetti fisici per le biciclette: pagamenti e hardware sono simulati. Eventuali estensioni (ad esempio biciclette elettriche con gestione della batteria) sono considerate sviluppi futuri.
+
 
 ### 1.4 Risultati attesi
 
@@ -66,7 +68,7 @@ Il risultato atteso è un’applicazione funzionante e documentata che implement
 
 ## 2. Modello di processo
 
-Il progetto seguirà un modello **iterativo e incrementale guidato dai casi d’uso**, a timebox. Il lavoro è organizzato in una fase di avvio, quattro iterazioni di due settimane e una chiusura finale.
+Il progetto seguirà un modello **iterativo e incrementale guidato dai casi d’uso**, a timebox. Organizziomao  il lavoro è organizzato in una fase di avvio, quattro iterazioni di due settimane e una chiusura finale??
 
 **Avvio.** Si definiscono perimetro, requisiti ad alto livello, use case diagram, class diagram di dominio e architettura di massima. Si configurano repository, progetto Maven e board GitHub. La fase produce il project plan e la prima versione della specifica dei requisiti.
 
@@ -94,7 +96,7 @@ Il progetto sarà realizzato da un gruppo di tre studenti. Il lavoro è organizz
 | Componente | Area principale | Responsabilità |
 |---|---|---|
 | Componente 1 | Utenti e amministrazione | Registrazione, accesso, profili, abbonamenti e funzioni amministrative |
-| Componente 2 | Biciclette e stazioni | Gestione biciclette e stazioni, disponibilità, manutenzione e segnalazione guasti |
+| Componente 2 | Biciclette e stazioni | Gestione biciclette e stazioni, disponibilità, manutenzione + segnalazione guasti |
 | Componente 3 | Prenotazioni e pagamenti | Prenotazioni, noleggi, restituzioni, calcolo dei costi e pagamenti |
 
 ### 3.2 Ruoli di gestione
