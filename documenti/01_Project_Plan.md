@@ -85,7 +85,7 @@ Il progetto seguirà un modello **iterativo e incrementale guidato dai casi d’
 
 **Chiusura finale.** Completamento della documentazione, verifica del progetto e preparazione della presentazione, senza nuove funzionalità.
 
-Il modello è stato scelto perché il perimetro è chiaro ma il rischio di integrazione tra i tre moduli è reale: le iterazioni permettono di integrare presto e di tagliare le funzionalità meno prioritarie se i tempi stringono.
+Il modello è stato scelto perché il perimetro è chiaro ma il rischio di integrazione tra i tre moduli è reale: le iterazioni permettono di integrare presto e di tagliare le funzionalità meno prioritarie se i tempi stringono. 
 
 ## 3. Organizzazione del progetto
 
@@ -120,7 +120,7 @@ Analisi dei requisiti, diagrammi UML, architettura software, integrazione dei mo
 
 ### 3.5 Comunicazione
 
-Il gruppo organizzerà incontri periodici (almeno uno a settimana e uno a fine iterazione) per discutere i progressi, assegnare i compiti e risolvere i problemi. GitHub è la piattaforma principale di collaborazione: ogni componente aggiorna lo stato delle proprie issue e comunica i progressi sulla board.
+Il gruppo organizzerà incontri per discutere i progressi, assegnare i compiti e risolvere i problemi. GitHub è la piattaforma principale di collaborazione: ogni componente aggiorna lo stato delle proprie issue e comunica i progressi sulla board.
 
 ## 4. Standard, linee guida e procedure
 
@@ -242,10 +242,10 @@ Il progetto includerà i seguenti diagrammi UML, realizzati con StarUML (il file
 
 - Use case diagram.
 - Class diagram, dal quale sarà generata una prima versione del codice Java; le classi generate e poi modificate saranno indicate nella relazione.
-- State machine diagram, almeno uno non banale (ad esempio il ciclo di vita della bicicletta).
-- Sequence diagram, almeno uno non banale (ad esempio noleggio, restituzione e pagamento).
+- State machine diagram.
+- Sequence diagram.
 - Communication diagram oppure timing diagram.
-- Activity diagram, almeno uno non banale (ad esempio il flusso di noleggio o la gestione dei guasti).
+- Activity diagram.
 - Component diagram e package diagram.
 
 ### 8.3 Architettura e progettazione software
@@ -290,7 +290,7 @@ Una funzionalità è considerata completata quando funziona correttamente, i rel
 
 ## 10. Pacchetti di lavoro
 
-Il progetto è suddiviso in pacchetti di lavoro per organizzare le attività e definire i risultati attesi. Ogni pacchetto ha un responsabile (un modulo o un ruolo di gestione); gli altri componenti contribuiscono dove indicato.
+Il progetto è suddiviso in pacchetti di lavoro per organizzare le attività e definire i risultati attesi. Ogni pacchetto ha un responsabile (un modulo o un ruolo di gestione) mentre gli altri componenti contribuiscono dove indicato.
 
 | Pacchetto | Attività | Responsabile | Iter. |
 |---|---|---|---|
@@ -327,58 +327,17 @@ L’avanzamento è monitorato tramite le issue GitHub, le milestone e la bacheca
 
 ### 11.2 Risorse hardware
 
-Ogni componente del gruppo utilizza un computer personale adatto allo sviluppo Java. È necessaria una connessione Internet per accedere a GitHub e condividere i file del progetto. Per la dimostrazione all’esame sarà preparato almeno un computer con il progetto in esecuzione.
+Ogni componente del gruppo utilizza un computer personale adatto allo sviluppo Java. È necessaria una connessione Internet per accedere a GitHub e condividere i file del progetto.
 
 ### 11.3 Risorse umane
 
-Il progetto è realizzato da tre studenti. Ogni componente contribuisce alle attività di sviluppo, modellazione, test e documentazione. Non è necessario personale aggiuntivo.
+Il progetto è realizzato da tre studenti. Ogni componente contribuisce alle attività di sviluppo, modellazione, test e documentazione.
 
-## 12. Budget e programma
-
-### 12.1 Budget
-
-BikeFlow è un progetto accademico e non richiede un investimento economico significativo. Java, Eclipse, Maven, Git e GitHub (piano gratuito), StarUML 5, JUnit, H2 e gli strumenti di analisi sono gratuiti. La principale risorsa investita è il tempo di lavoro dei tre componenti.
-
-### 12.2 Calendario di sviluppo
-
-Le date sono calcolate ipotizzando l’esame orale il **10 febbraio 2027** (consegna del progetto completo il 5 febbraio, cinque giorni prima).
-
-| Periodo | Fase | Risultati |
-|---|---|---|
-| 16 – 29 nov | Avvio | Project plan e issue di approvazione, repository, requisiti v1, use case diagram, class diagram di dominio |
-| 30 nov – 13 dic | It.1 | Utenti, flotta, stazioni, persistenza di base, primi test JUnit, state machine della bicicletta |
-| 14 – 27 dic | It.2 | Noleggio, restituzione e pagamento; sequence e activity diagram |
-| 28 dic – 6 gen | Buffer | Recupero dei ritardi e revisione dei documenti |
-| 7 – 20 gen | It.3 | Abbonamenti, guasti, manutenzione; communication o timing diagram; component e package diagram |
-| 21 gen – 4 feb | It.4 e chiusura | Backoffice e report, refactoring, metriche e copertura, documenti finali |
-| 5 feb | Consegna | Progetto completo, cinque giorni prima dell’esame |
-| 10 feb | Esame | Presentazione e dimostrazione |
-
-Il calendario è indicativo e potrà essere aggiornato in base all’avanzamento effettivo del progetto; le differenze rispetto al piano saranno registrate nel documento di Project Management. Dal 5 al 10 febbraio saranno apportate solo correzioni e rifiniture, senza nuovi documenti o nuovi progetti.
-
-### 12.3 Impegno stimato
-
-Il carico stimato è di circa 40 ore per persona, **120 ore** per il gruppo, ripartite come segue.
-
-| Attività | Ore | % |
-|---|---:|---:|
-| Ingegneria dei requisiti | 20 | 16,7% |
-| Modellazione UML | 33 | 27,5% |
-| Architettura e design | 32 | 26,7% |
-| **Subtotale requisiti, modellazione e design** | **85** | **70,8%** |
-| Pianificazione e gestione del progetto | 8 | 6,7% |
-| Implementazione | 19 | 15,8% |
-| Testing | 6 | 5,0% |
-| Manutenzione e refactoring | 2 | 1,7% |
-| **Totale** | **120** | **100%** |
-
-*Come richiesto dal corso, almeno il 70% del tempo (85 ore su 120, pari al 70,8%) è dedicato a requisiti, modellazione e design. La pianificazione e la gestione del progetto non sono incluse in questo conteggio. Le percentuali sono arrotondate.*
-
-## 13. Modifiche
+## 12. Modifiche
 
 Durante lo sviluppo potrebbe essere necessario modificare il piano di progetto o i requisiti iniziali. Le modifiche potranno riguardare requisiti funzionali, progettazione software, struttura del database, interfaccia utente, implementazione o calendario. Eventuali aggiornamenti successivi del piano saranno registrati nella tabella delle versioni in copertina.
 
-### 13.1 Procedura di gestione delle modifiche
+### 12.1 Procedura di gestione delle modifiche
 
 - Un componente individua la necessità di una modifica.
 - La modifica viene descritta in una GitHub Issue.
@@ -391,9 +350,9 @@ Durante lo sviluppo potrebbe essere necessario modificare il piano di progetto o
 
 Tutte le modifiche significative sono tracciate tramite GitHub, così da mantenere uno storico del progetto.
 
-## 14. Consegna
+## 13. Consegna
 
-### 14.1 Risultati finali da consegnare
+### 13.1 Risultati finali da consegnare
 
 | Documento | Contenuto |
 |---|---|
@@ -406,20 +365,15 @@ Tutte le modifiche significative sono tracciate tramite GitHub, così da mantene
 
 Il progetto StarUML contenente i diagrammi sarà caricato nel repository insieme alla documentazione.
 
-### 14.2 Consegna del software
+### 13.2 Consegna del software
 
-L’applicazione completa sarà caricata nel repository GitHub, condiviso con gli account **garganti** e **silviabonfanti**. Il repository conterrà codice sorgente Java, file di configurazione Maven, file dei progetti Eclipse, test JUnit, diagrammi UML, documentazione e istruzioni per eseguire l’applicazione. Il database sarà embedded e il progetto non richiederà l’installazione di servizi esterni.
+L’applicazione completa sarà caricata nel repository GitHub, condiviso con gli account **garganti** e **silviabonfanti**. Il repository conterrà codice sorgente Java, file di configurazione Maven, file dei progetti Eclipse, test JUnit, diagrammi UML, documentazione e istruzioni per eseguire l’applicazione. 
 
-### 14.3 Scadenze
+### 13.3 Presentazione finale
 
-- Project plan condiviso almeno un mese prima dell’esame (obiettivo del gruppo: entro il 29 novembre 2026), con issue di approvazione assegnata al professore.
-- Progetto completo cinque giorni prima della presentazione.
+Il progetto sarà presentato durante l’esame orale. Ogni componente presenterà il proprio contributo e spiegherà le attività svolte. Sarà inoltre preparata una dimostrazione dell’applicazione.
 
-### 14.4 Presentazione finale
-
-Il progetto sarà presentato durante l’esame orale. Poiché il gruppo è composto da tre membri, la presentazione durerà al massimo 30 minuti, seguiti da circa 10 minuti per domande e osservazioni. Ogni componente presenterà il proprio contributo e spiegherà le attività svolte. Sarà inoltre preparata una dimostrazione dell’applicazione e dei test automatici.
-
-### 14.5 Criteri di completamento
+### 13.4 Criteri di completamento
 
 - I requisiti principali sono stati implementati.
 - L’applicazione funziona correttamente.
