@@ -345,7 +345,7 @@ Le date sono calcolate ipotizzando l’esame orale il **10 febbraio 2027** (cons
 
 | Periodo | Fase | Risultati |
 |---|---|---|
-| 16 – 29 nov | Avvio | Project plan e issue di approvazione, repository, requisiti v1, use case diagram, class diagram di dominio |
+| Avvio | Project plan e issue di approvazione, repository, requisiti v1, use case diagram, class diagram di dominio |
 | 30 nov – 13 dic | It.1 | Utenti, flotta, stazioni, persistenza di base, primi test JUnit, state machine della bicicletta |
 | 14 – 27 dic | It.2 | Noleggio, restituzione e pagamento; sequence e activity diagram |
 | 28 dic – 6 gen | Buffer | Recupero dei ritardi e revisione dei documenti |
