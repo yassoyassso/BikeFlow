@@ -95,9 +95,9 @@ Il progetto sarà realizzato da un gruppo di tre studenti. Il lavoro è organizz
 
 | Componente | Area principale | Responsabilità |
 |---|---|---|
-| Componente 1 | Utenti e amministrazione | Registrazione, accesso, profili, abbonamenti e funzioni amministrative |
+| Componente 1 | Utenti e amministrazione | Registrazione, accesso, profili e funzioni amministrative |
 | Componente 2 | Biciclette e stazioni | Gestione biciclette e stazioni, disponibilità, manutenzione + segnalazione guasti |
-| Componente 3 | Prenotazioni e pagamenti | Prenotazioni, noleggi, restituzioni, calcolo dei costi e pagamenti |
+| Componente 3 | Prenotazioni e pagamenti | Prenotazioni, noleggi, restituzioni, calcolo dei costi |
 
 ### 3.2 Ruoli di gestione
 
