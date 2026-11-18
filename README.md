@@ -1,6 +1,6 @@
-# 🚲 BIKEFLOW
+#  BIKEFLOW
 
-## 📚 DOCUMENTAZIONE DEL PROGETTO
+## DOCUMENTAZIONE DEL PROGETTO
 
 La documentazione del progetto è suddivisa nelle seguenti sezioni:
 
@@ -23,15 +23,3 @@ La documentazione del progetto è suddivisa nelle seguenti sezioni:
 - [Maintenance](documenti/06_Maintenance.md)
 
 ---
-
-## 💻 CODICE SORGENTE
-
-Il codice Java del progetto è disponibile nella cartella `codice/`.
-
-## 🛠️ TECNOLOGIE UTILIZZATE
-
-- Java
-- Eclipse
-- Maven
-- JUnit
-- GitHub
