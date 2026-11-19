@@ -11,7 +11,7 @@
 | Documento | Project Plan – Piano di progetto |
 | Versione | 1.0 |
 | Data | 18 novembre 2026 |
-| Gruppo | 3 componenti |
+| Gruppo | Sara Onunifi, Yassir khariche, Mohamed Amine Guelmine |
 | Repository GitHub | https://github.com/ykhariche-cell/BikeFlow |
 | Condiviso con | garganti (professore), silviabonfanti (esercitatrice) |
 
